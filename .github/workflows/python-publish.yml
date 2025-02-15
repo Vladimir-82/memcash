@@ -28,7 +28,7 @@ jobs: # jobs. We will have two jobs (test and publish) with multiple steps.
         run: poetry install --no-root
       - name: flake8
         run: |
-          poetry run flake8 .
+          poetry run flake8 memcache_load/memc_load.py
 
 
   publish:

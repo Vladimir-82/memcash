@@ -7,6 +7,10 @@ readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.10"
+protobuf = "3.7.1"
+pytest = "^8.3.4"
+python-memcached = "^1.62"
+flake8 = "^7.1.1"
 
 
 [build-system]
